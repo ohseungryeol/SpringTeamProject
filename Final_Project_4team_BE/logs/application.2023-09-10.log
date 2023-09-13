@@ -1,0 +1,105 @@
+18:17:31.505 [restartedMain] [ INFO] c.e.backend.BackendApplication[logStarting:51] Starting BackendApplication using Java 17.0.7 with PID 17292 (C:\Users\82106\temp\testestest\DIB-BE\build\classes\java\main started by 82106 in C:\Users\82106\temp\testestest\DIB-BE)
+18:17:31.517 [restartedMain] [ INFO] c.e.backend.BackendApplication[logStartupProfileInfo:634] No active profile set, falling back to 1 default profile: "${SPRING_PROFILE_ACTIVE}"
+18:17:31.745 [restartedMain] [ INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[logTo:250] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:17:31.747 [restartedMain] [ INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[logTo:250] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:17:34.230 [restartedMain] [ INFO] o.s.d.r.c.RepositoryConfigurationDelegate[registerRepositoriesIn:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:17:34.583 [restartedMain] [ INFO] o.s.d.r.c.RepositoryConfigurationDelegate[registerRepositoriesIn:208] Finished Spring Data repository scanning in 339 ms. Found 12 JPA repository interfaces.
+18:17:35.866 [restartedMain] [ INFO] o.s.b.w.e.tomcat.TomcatWebServer[initialize:108] Tomcat initialized with port(s): 8080 (http)
+18:17:35.888 [restartedMain] [ INFO] o.a.catalina.core.StandardService[log:173] Starting service [Tomcat]
+18:17:35.889 [restartedMain] [ INFO] o.a.catalina.core.StandardEngine[log:173] Starting Servlet engine: [Apache Tomcat/10.1.11]
+18:17:36.106 [restartedMain] [ INFO] o.a.c.c.C.[Tomcat].[localhost].[/][log:173] Initializing Spring embedded WebApplicationContext
+18:17:36.107 [restartedMain] [ INFO] o.s.b.w.s.c.ServletWebServerApplicationContext[prepareWebApplicationContext:291] Root WebApplicationContext: initialization completed in 4357 ms
+18:17:36.237 [restartedMain] [ WARN] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[refresh:616] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+18:17:36.242 [restartedMain] [ INFO] o.a.catalina.core.StandardService[log:173] Stopping service [Tomcat]
+18:17:36.270 [restartedMain] [ INFO] o.s.b.a.l.ConditionEvaluationReportLogger[logMessage:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+18:17:36.324 [restartedMain] [ERROR] o.s.b.d.LoggingFailureAnalysisReporter[report:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+18:34:58.674 [restartedMain] [ INFO] c.e.backend.BackendApplication[logStarting:51] Starting BackendApplication using Java 17.0.7 with PID 27524 (C:\Users\82106\temp\testestest\DIB-BE\build\classes\java\main started by 82106 in C:\Users\82106\temp\testestest\DIB-BE)
+18:34:58.685 [restartedMain] [ INFO] c.e.backend.BackendApplication[logStartupProfileInfo:634] No active profile set, falling back to 1 default profile: "${SPRING_PROFILE_ACTIVE}"
+18:34:58.808 [restartedMain] [ INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[logTo:250] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:34:58.809 [restartedMain] [ INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[logTo:250] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:35:00.914 [restartedMain] [ INFO] o.s.d.r.c.RepositoryConfigurationDelegate[registerRepositoriesIn:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:35:01.324 [restartedMain] [ INFO] o.s.d.r.c.RepositoryConfigurationDelegate[registerRepositoriesIn:208] Finished Spring Data repository scanning in 396 ms. Found 13 JPA repository interfaces.
+18:35:02.582 [restartedMain] [ INFO] o.s.b.w.e.tomcat.TomcatWebServer[initialize:108] Tomcat initialized with port(s): 8080 (http)
+18:35:02.601 [restartedMain] [ INFO] o.a.catalina.core.StandardService[log:173] Starting service [Tomcat]
+18:35:02.602 [restartedMain] [ INFO] o.a.catalina.core.StandardEngine[log:173] Starting Servlet engine: [Apache Tomcat/10.1.11]
+18:35:02.786 [restartedMain] [ INFO] o.a.c.c.C.[Tomcat].[localhost].[/][log:173] Initializing Spring embedded WebApplicationContext
+18:35:02.787 [restartedMain] [ INFO] o.s.b.w.s.c.ServletWebServerApplicationContext[prepareWebApplicationContext:291] Root WebApplicationContext: initialization completed in 3977 ms
+18:35:02.890 [restartedMain] [ WARN] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[refresh:616] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+18:35:02.894 [restartedMain] [ INFO] o.a.catalina.core.StandardService[log:173] Stopping service [Tomcat]
+18:35:02.927 [restartedMain] [ INFO] o.s.b.a.l.ConditionEvaluationReportLogger[logMessage:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+18:35:02.982 [restartedMain] [ERROR] o.s.b.d.LoggingFailureAnalysisReporter[report:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+21:12:28.315 [restartedMain] [ INFO] c.e.backend.BackendApplication[logStarting:51] Starting BackendApplication using Java 17.0.7 with PID 15856 (C:\Users\82106\temp\testestest\DIB-BE\build\classes\java\main started by 82106 in C:\Users\82106\temp\testestest\DIB-BE)
+21:12:28.325 [restartedMain] [ INFO] c.e.backend.BackendApplication[logStartupProfileInfo:634] No active profile set, falling back to 1 default profile: "${SPRING_PROFILE_ACTIVE}"
+21:12:28.474 [restartedMain] [ INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[logTo:250] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:12:28.475 [restartedMain] [ INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[logTo:250] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+21:12:30.648 [restartedMain] [ INFO] o.s.d.r.c.RepositoryConfigurationDelegate[registerRepositoriesIn:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21:12:31.088 [restartedMain] [ INFO] o.s.d.r.c.RepositoryConfigurationDelegate[registerRepositoriesIn:208] Finished Spring Data repository scanning in 425 ms. Found 13 JPA repository interfaces.
+21:12:32.793 [restartedMain] [ INFO] o.s.b.w.e.tomcat.TomcatWebServer[initialize:108] Tomcat initialized with port(s): 8080 (http)
+21:12:32.817 [restartedMain] [ INFO] o.a.catalina.core.StandardService[log:173] Starting service [Tomcat]
+21:12:32.818 [restartedMain] [ INFO] o.a.catalina.core.StandardEngine[log:173] Starting Servlet engine: [Apache Tomcat/10.1.11]
+21:12:33.051 [restartedMain] [ INFO] o.a.c.c.C.[Tomcat].[localhost].[/][log:173] Initializing Spring embedded WebApplicationContext
+21:12:33.051 [restartedMain] [ INFO] o.s.b.w.s.c.ServletWebServerApplicationContext[prepareWebApplicationContext:291] Root WebApplicationContext: initialization completed in 4574 ms
+21:12:33.165 [restartedMain] [ WARN] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[refresh:616] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+21:12:33.169 [restartedMain] [ INFO] o.a.catalina.core.StandardService[log:173] Stopping service [Tomcat]
+21:12:33.196 [restartedMain] [ INFO] o.s.b.a.l.ConditionEvaluationReportLogger[logMessage:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+21:12:33.243 [restartedMain] [ERROR] o.s.b.d.LoggingFailureAnalysisReporter[report:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+

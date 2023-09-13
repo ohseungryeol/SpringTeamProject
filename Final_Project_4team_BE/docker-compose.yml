@@ -1,0 +1,32 @@
+version: "3.8"
+services:
+  fantastic4-database:
+    container_name: fantastic4-database
+    build:
+      dockerfile: Dockerfile
+      context: ./database
+    image: alexgim961101/fantastic4-database
+    environment:
+      - MARIADB_DATABASE=fantastic4
+      - MARIADB_ROOT_PASSWORD=${SPRING_DATASOURCE_PASSWORD}
+    volumes:
+      - ./database/config:/etc/mysql/conf.d
+    ports:
+      - "3306:3306"
+  fantastic4-app:
+    container_name: fantastic4-app
+    build: .
+    depends_on:
+      - fantastic4-database
+    image: alexgim961101/fantastic4-app
+    environment:
+      - SPRING_DATASOURCE_USERNAME=${SPRING_DATASOURCE_USERNAME}
+      - SPRING_DATASOURCE_PASSWORD=${SPRING_DATASOURCE_PASSWORD}
+      - SPRING_PROFILES_ACTIVE=${SPRING_PROFILES_ACTIVE}
+      - AWS_S3_BUCKET=${AWS_S3_BUCKET}
+      - AWS_S3_ACCESS_KEY=${AWS_S3_ACCESS_KEY}
+      - AWS_S3_ACCESS_SECRET_KEY=${AWS_S3_ACCESS_SECRET_KEY}
+      - GOOGLE_GEOCODING_API_KEY=${GOOGLE_GEOCODING_API_KEY}
+    ports:
+      - "8080:8080"
+    restart: always
