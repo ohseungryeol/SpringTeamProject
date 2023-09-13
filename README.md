@@ -16,42 +16,42 @@
   파티원들과의 채팅 기능
 ```
 
-```
+
 ### 1. 홈
-![image](https://github.com/likelion-fantastic4/DIB-V/assets/130957627/0a97f888-960f-437f-a7d6-a22c5a22bed4)
+![1.png](ReadmeImages%2F1.png)
 
 ### 2. 메인페이지
-![image](https://github.com/likelion-fantastic4/DIB-V/assets/130957627/a5839872-d034-459d-8e59-c7691405bb81)
+![2.png](ReadmeImages%2F2.png)
 
 ### 3.마이페이지
-![image](https://github.com/likelion-fantastic4/Final_Project_4team_FE/assets/130957627/5123e2ef-606f-486b-b137-d468109b9b05)
+![3.png](ReadmeImages%2F3.png)
 
 ### 4.서비스 가이드
-![image](https://github.com/likelion-fantastic4/Final_Project_4team_FE/assets/130957627/2d63a2c7-83f4-4fa4-9ec1-e163ac89eb14)
-```
+![4.png](ReadmeImages%2F4.png)
+
 
 
 
 
 ## 프로젝트 명세
-```
+
 ### 아키텍쳐
-![image](https://github.com/likelion-fantastic4/DIB-V/assets/130957627/9473e8e1-b2c4-41a2-9b89-6d51435ae5d2)
+![5.png](ReadmeImages%2F5.png)
 
 ### Usecase 다이어그램
 ### 회원가입
-![image](https://github.com/likelion-fantastic4/DIB-V/assets/130957627/6a03adcb-80cc-49c0-8a66-0839e1cd42ca)
+![6.png](ReadmeImages%2F6.png)
 
-![image](https://github.com/likelion-fantastic4/DIB-V/assets/130957627/baefb28f-f1bd-414b-ae85-436885125fba)
+![7.png](ReadmeImages%2F7.png)
 
 ### ERD
-![image](https://github.com/likelion-fantastic4/DIB-V/assets/130957627/60afb513-fc37-4ee0-8661-bc1ece421f69)
+![8.png](ReadmeImages%2F8.png)
 
 
 
 
 
-## Project setup
+## Project setup (Front-End)
 ```
 npm install
 ```
@@ -70,6 +70,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
