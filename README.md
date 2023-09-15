@@ -1,11 +1,18 @@
 
+
 # DIB
 
+<div align="center">
 
 <img width="700" alt="image" src="https://github.com/likelion-fantastic4/fantastic-wiki/assets/123791415/6f4382d7-c199-41d3-939d-5781dddbaab7">
 
+![](src="https://github.com/likelion-fantastic4/fantastic-wiki/assets/123791415/6f4382d7-c199-41d3-939d-5781dddbaab7")
+<br/>
+<b>대용량 소분을 위한 소규모 펀딩 서비스</b>
 
-**<center>대용량 소분을 위한 소규모 펀딩 서비스</center>**
+</div>
+
+
 
 
 
