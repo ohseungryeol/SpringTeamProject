@@ -1,12 +1,16 @@
-# dib
 
-## 팀 소개
-```
-팀명 : Fantastic4
-구성원 : 김지현 박준수 박홍일 이정은 오승렬
-```
+# DIB
 
-## 프로젝트 소개
+
+<img width="700" alt="image" src="https://github.com/likelion-fantastic4/fantastic-wiki/assets/123791415/6f4382d7-c199-41d3-939d-5781dddbaab7">
+
+
+**<center>대용량 소분을 위한 소규모 펀딩 서비스</center>**
+
+
+
+## 🐶 About this Service 
+
 ```
 개발기간 : 2023/08/09 ~ 2023/09/13
 특징 및 주요 기능 :
@@ -15,6 +19,16 @@
   카카오 계정을 이용한 간편한 회원가입
   파티원들과의 채팅 기능
 ```
+
+## ✨ Fantastic 4 🦸‍♂️ 
+
+```
+팀명 : Fantastic4
+구성원 : 김지현 박준수 박홍일 이정은 오승렬
+```
+
+## 프로젝트 소개
+
 
 
 ### 1. 홈
