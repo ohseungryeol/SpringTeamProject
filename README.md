@@ -1,4 +1,4 @@
-
+<img width="161" alt="스크린샷 2023-09-15 오전 9 40 41" src="https://github.com/likelion-backend-5th/Final_Project_4team/assets/123791415/608f9cb0-62fc-4f11-8404-67cd592e3e97">
 
 # DIB
 
@@ -93,3 +93,11 @@ npm run build
 ```
 npm run lint
 ```
+
+
+## ✨ Fantastic 4 🦸‍♂️ 
+
+|김지현|박준수|박홍일|오승렬|이정은|
+|----|-   <img width="161" alt="스크린샷 2023-09-15 오전 9 40 41" src="https://github.com/likelion-backend-5th/Final_Project_4team/assets/123791415/ed2dfcca-514a-496c-96da-aa2f34ece2e1">
+ --|---|---|---|
+
