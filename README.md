@@ -95,3 +95,60 @@ npm run lint
 
 
 ## ✨ Fantastic 4 🦸‍♂️ 
+
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">Developer</th>
+      <th align="center">Developer</th>
+      <th align="center">Developer</th>
+      <th align="center">Developer</th>
+      <th align="center">Developer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a >
+          <img width="64" alt="스크린샷 2023-09-15 오전 9 49 15" src="https://github.com/likelion-backend-5th/Final_Project_4team/assets/123791415/b75b1f43-86df-44c4-92d3-fcd111383fde">
+
+          <br />
+          김지현
+        </a>
+      </td>
+      <td align="center">
+        <a >
+          <img width="64" alt="스크린샷 2023-09-15 오전 9 40 41" src="https://github.com/likelion-backend-5th/Final_Project_4team/assets/123791415/0394b96b-d43a-42b0-b42e-b75bf8db2f21">
+
+          <br />
+          박준수
+        </a>
+      </td>
+      <td align="center">
+        <a >
+         <img width="64" alt="스크린샷 2023-09-15 오전 9 51 22" src="https://github.com/likelion-backend-5th/Final_Project_4team/assets/123791415/f8301e0c-2c60-46e6-9527-8e2b8d2bb4a2">
+
+          <br />
+          박홍일
+        </a>
+      </td>
+      <td align="center">
+        <a>
+<img width="64" alt="스크린샷 2023-09-15 오전 9 52 50" src="https://github.com/likelion-backend-5th/Final_Project_4team/assets/123791415/9161558c-4e29-4e8d-b0ab-cefbccc48076">
+
+          
+          <br />
+          오승렬
+        </a>
+      </td>
+      <td align="center">
+        <a >
+         <img width="64" alt="스크린샷 2023-09-15 오전 9 53 23" src="https://github.com/likelion-backend-5th/Final_Project_4team/assets/123791415/560bfb3d-ed20-4968-b99a-2b7ef98f4be9">
+
+          <br />
+          이정은
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
