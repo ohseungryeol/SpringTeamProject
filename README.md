@@ -54,7 +54,7 @@ Link:
 
 
 
-## 🔨 Tech stack
+## 🔨 project architecture
 Spring과 View를 사용해 풀스택으로 개발했습니다.
 ![5.png](ReadmeImages%2F5.png)
 
